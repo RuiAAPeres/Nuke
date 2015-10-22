@@ -221,7 +221,7 @@ To install Nuke add a dependency to your Podfile:
 ```ruby
 # source 'https://github.com/CocoaPods/Specs.git'
 # use_frameworks!
-# platform :ios, "8.0" / :watchos, "2.0" / :osx, "10.9"
+# platform :ios, "8.0" / :watchos, "2.0" / :osx, "10.9" / :tvos, "9.0"
 
 pod "Nuke"
 pod "Nuke-Alamofire-Plugin" # optional
@@ -246,7 +246,7 @@ import NukeAnimatedImagePlugin
 ```
 
 ## <a name="h_requirements"></a>[Requirements](https://github.com/kean/Nuke/wiki/Supported-Platforms)
-- iOS 8.0+ / watchOS 2.0+ / OS X 10.9+
+- iOS 8.0+ / watchOS 2.0+ / OS X 10.9+ / tvOS 9.0+
 - Xcode 7.0+, Swift 2.0+
 
 ## <a name="h_satellite_projects"></a>Satellite Projects
