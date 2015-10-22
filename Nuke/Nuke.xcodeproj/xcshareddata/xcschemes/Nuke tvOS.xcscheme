@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0CC345961BD96CFE005C2DD8"
-               BuildableName = "Nuke tvOS.framework"
+               BuildableName = "Nuke.framework"
                BlueprintName = "Nuke tvOS"
                ReferencedContainer = "container:Nuke.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0CC345961BD96CFE005C2DD8"
-            BuildableName = "Nuke tvOS.framework"
+            BuildableName = "Nuke.framework"
             BlueprintName = "Nuke tvOS"
             ReferencedContainer = "container:Nuke.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0CC345961BD96CFE005C2DD8"
-            BuildableName = "Nuke tvOS.framework"
+            BuildableName = "Nuke.framework"
             BlueprintName = "Nuke tvOS"
             ReferencedContainer = "container:Nuke.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0CC345961BD96CFE005C2DD8"
-            BuildableName = "Nuke tvOS.framework"
+            BuildableName = "Nuke.framework"
             BlueprintName = "Nuke tvOS"
             ReferencedContainer = "container:Nuke.xcodeproj">
          </BuildableReference>

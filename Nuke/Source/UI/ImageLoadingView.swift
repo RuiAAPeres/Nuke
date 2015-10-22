@@ -51,7 +51,7 @@ public extension View {
         #if os(iOS) || os(tvOS)
             let scale = UIScreen.mainScreen().scale
         #elseif os(OSX)
-            
+            let scale = NSScreen.mainScreen()?.backingScaleFactor ?? 1.0
         #endif
         return CGSize(width: size.width * scale, height: size.height * scale)
     }
