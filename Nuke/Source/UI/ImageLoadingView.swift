@@ -155,5 +155,5 @@ public extension ImageLoadingView where Self: ImageDisplayingView {
 }
 
 private struct AssociatedKeys {
-    static var LoadingController = "nk_ImageViewLoadingController"
+    static var LoadingController = "nk_imageViewLoadingController"
 }
