@@ -70,6 +70,18 @@
 		0CC2D9F61BD2ACE4006189B3 /* ImageViewLoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC2D9F51BD2ACE4006189B3 /* ImageViewLoadingController.swift */; };
 		0CC2DA011BD2BFA6006189B3 /* ImageLoadingViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC2DA001BD2BFA6006189B3 /* ImageLoadingViewExtensions.swift */; };
 		0CC345A81BD96D2A005C2DD8 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC345971BD96CFE005C2DD8 /* Nuke.framework */; };
+		0CC345AE1BD96D8E005C2DD8 /* Nuke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C096C891BAE9ADD007FE380 /* Nuke.swift */; };
+		0CC345AF1BD96D8E005C2DD8 /* ImageTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C096C881BAE9ADD007FE380 /* ImageTask.swift */; };
+		0CC345B01BD96D8E005C2DD8 /* ImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C096C861BAE9ADD007FE380 /* ImageRequest.swift */; };
+		0CC345B11BD96D8E005C2DD8 /* ImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C096C871BAE9ADD007FE380 /* ImageResponse.swift */; };
+		0CC345B21BD96D8E005C2DD8 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C096C811BAE9ADD007FE380 /* ImageManager.swift */; };
+		0CC345B31BD96D8E005C2DD8 /* ImageManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF161F1BC4526A003768E5 /* ImageManagerExtensions.swift */; };
+		0CC345B41BD96D8E005C2DD8 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C096C831BAE9ADD007FE380 /* ImageLoader.swift */; };
+		0CC345B51BD96D8E005C2DD8 /* ImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C096C7F1BAE9ADD007FE380 /* ImageDataLoader.swift */; };
+		0CC345B61BD96D8E005C2DD8 /* ImageDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C096C801BAE9ADD007FE380 /* ImageDecoder.swift */; };
+		0CC345B71BD96D8E005C2DD8 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C096C851BAE9ADD007FE380 /* ImageProcessor.swift */; };
+		0CC345B81BD96D8E005C2DD8 /* ImageMemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C096C841BAE9ADD007FE380 /* ImageMemoryCache.swift */; };
+		0CC345B91BD96D8E005C2DD8 /* ImageRequestKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E01771BC0637B0040B46B /* ImageRequestKey.swift */; };
 		0CCF16201BC4526A003768E5 /* ImageManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF161F1BC4526A003768E5 /* ImageManagerExtensions.swift */; };
 		0CF91FB51BD3D44B00C7CF23 /* ImageLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC2D9E71BD24613006189B3 /* ImageLoadingView.swift */; };
 		0CF91FB81BD3D85A00C7CF23 /* ImageViewLoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC2D9F51BD2ACE4006189B3 /* ImageViewLoadingController.swift */; };
@@ -682,6 +694,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC345B41BD96D8E005C2DD8 /* ImageLoader.swift in Sources */,
+				0CC345B11BD96D8E005C2DD8 /* ImageResponse.swift in Sources */,
+				0CC345B71BD96D8E005C2DD8 /* ImageProcessor.swift in Sources */,
+				0CC345B31BD96D8E005C2DD8 /* ImageManagerExtensions.swift in Sources */,
+				0CC345B21BD96D8E005C2DD8 /* ImageManager.swift in Sources */,
+				0CC345B91BD96D8E005C2DD8 /* ImageRequestKey.swift in Sources */,
+				0CC345B51BD96D8E005C2DD8 /* ImageDataLoader.swift in Sources */,
+				0CC345B61BD96D8E005C2DD8 /* ImageDecoder.swift in Sources */,
+				0CC345B81BD96D8E005C2DD8 /* ImageMemoryCache.swift in Sources */,
+				0CC345AF1BD96D8E005C2DD8 /* ImageTask.swift in Sources */,
+				0CC345B01BD96D8E005C2DD8 /* ImageRequest.swift in Sources */,
+				0CC345AE1BD96D8E005C2DD8 /* Nuke.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
