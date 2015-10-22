@@ -25,7 +25,13 @@ class MockProcessedImage: Image {
         fatalError("init(coder:) has not been implemented")
     }
 
-    #if os(OSX)    
+    #if os(tvOS) || os(iOS)
+    required convenience init(imageLiteral name: String) {
+        fatalError("init(imageLiteral:) has not been implemented")
+    }
+    #endif
+    
+    #if os(OSX)
     required init?(pasteboardPropertyList propertyList: AnyObject, ofType type: String) {
         fatalError("init(pasteboardPropertyList:ofType:) has not been implemented")
     }
