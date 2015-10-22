@@ -48,10 +48,10 @@ public extension ImageLoadingView where Self: View {
 public extension View {
     public func nk_targetSize() -> CGSize {
         let size = self.bounds.size
-        #if os(iOS)
+        #if os(iOS) || os(tvOS)
             let scale = UIScreen.mainScreen().scale
         #elseif os(OSX)
-            let scale = NSScreen.mainScreen()?.backingScaleFactor ?? 1.0
+            
         #endif
         return CGSize(width: size.width * scale, height: size.height * scale)
     }
